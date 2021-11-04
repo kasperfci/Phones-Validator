@@ -1,0 +1,634 @@
+.badge-style {
+  padding: 0.4em 1em 0.4em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: .75rem; }
+
+.level-style {
+  padding: 0.4em 1em 0.4em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: .75rem; 
+}
+
+.check_input{
+  margin-left: 15px;
+  margin-top: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+.badge-bdr.badge-primary, .badge-bdr-pill.badge-primary {
+    color: #4266b2;
+    border: 1px solid #4266b2;
+  }
+
+  .badge-bdr.badge-secondry, .badge-bdr-pill.badge-secondry {
+    color: #64ab53;
+    border: 1px solid #64ab53;
+  }
+
+
+  .badge-bdr, .badge-bdr-pill {
+    background-color: transparent;
+}
+
+.badge-regular  {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.custom-offer,.offers-code{
+  color: white;
+  background-color: #4266b2;
+}
+
+.welcome-offer,.discount-code{
+  color: white;
+  background-color: #299a21;
+}
+
+.promo-offer,.promo-code-offer,.points-code{
+  color: white;
+  background-color: #cd7f32;
+}
+
+.for-all-users-offer{
+  color: white;
+  background-color: #645349;
+}
+
+.level-member-inactive,.Inactive{
+  background: red;
+  color: white;
+}
+
+.level-silver,.Silver{
+  background: #aaa9ad;
+  color: white;
+}
+
+.level-gold,.Gold{
+	background: gold;
+	color: white;
+}
+
+.level-platinum,.platinum{
+  background: #e5e4e2;
+  color: black;
+}
+
+.no-level,.No{
+  background: black;
+  color: white;
+}
+
+.float {
+    float: right !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #645349;
+    border-color: #645349;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #65ab53;
+    border-color: #65ab53;
+    box-shadow: none;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #3ed816;
+    border-color: #3ed816;
+  }
+
+  .bold{
+    color: black;
+    font-weight: bold;
+  }
+
+  .user-active {
+  background: green;
+  color: white;
+}
+
+.user-pending {
+  background: orange;
+  color: white;
+}
+
+.user-blocked{
+  background: red;
+  color: white;
+}
+
+.user-deactivated {
+  background: red;
+  color: white;
+}
+
+.state-valid{
+  background: green;
+  color: white;
+}
+
+.state-invalid {
+  background: red;
+  color: white;
+}
+
+.status-inactive {
+  background: red;
+  color: white;
+}
+
+.order-status-ordered{
+  background: orange;
+  color: white;
+}
+
+.order-status-pending{
+  background: orange;
+  color: white;
+}
+
+.order-status-preparing{
+  background: gold;
+  color: white;
+}
+
+.order-status-ready{
+  background: blue;
+  color: white;
+}
+
+.order-status-ready-to-pick-up,.order-status-out-for-delivery{
+  background: blue;
+  color: white;
+}
+
+.order-status-delivered{
+  background: green;
+  color: white;
+}
+
+.order-status-cancelled{
+  background: red;
+  color: white;
+}
+
+.order-type-pre-order,.type-pre-order,.order-take-dine-in,.type-dine-in{
+  background: green;
+  color: white;
+}
+
+.order-type-contactless,.type-contactless-order,.order-take-take-away,.type-take-away{
+  background: blue;
+  color: white;
+}
+
+.order-type-home-delivery,.type-home-delivery-order,
+.order-take-car-delivery,.type-car-delivery{
+  background: gold;
+  color: white;
+}
+
+
+.account-not-completed{
+  background: #f30c0c;
+  color: white;
+}
+
+.account-completed{
+  color: white;
+  background: blue;
+}
+
+.account-verified{
+  color: white;
+  background: #be0cca;
+}
+
+.account-approved{
+  color: white;
+  background: #057f05;
+}
+
+.main-heading {
+    padding: 1rem .5rem;
+    position: relative;
+    -webkit-box-shadow: 0 10px 20px -10px #bdcddf;
+    -moz-box-shadow: 0 10px 20px -10px #bdcddf;
+    box-shadow: 0 10px 20px -10px #bdcddf;
+    z-index: 10;
+    }
+
+    .main-heading .page-icon {
+    float: left;
+    border-right: 1px solid #d0d6e9;
+    padding-right: 10px;
+  }
+
+  .main-heading .page-icon i {
+    font-size: 24px;
+    color: #4266b2;
+    margin: 9px 6px 9px 0;
+    display: block;
+  }
+
+  .main-heading .page-title h6.sub-heading {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: .80rem;
+    color: #8796af;
+}
+
+.main-heading .page-title {
+    margin-left: 60px;
+}
+
+#image_preview{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.text_align_ar{
+  text-align: right;
+}
+
+.text_align_en{
+  text-align: right;
+}
+
+.text_align_center{
+  text-align: center;
+}
+
+.validate {
+  border: 1px solid red;
+}
+
+.fa-ban,.fa-trash{
+  color: red;
+}
+
+.fa-clone{
+  color: green;
+}
+
+.chekbox_wrapper {
+    display: block;
+    max-height: 165px;
+    overflow-y: auto;
+    line-height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    }
+
+   .storesCheck,
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+
+
+/* Remove default checkbox */
+.storesCheck:not(:checked),
+.storesCheck:checked {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+}
+
+.storesCheck {
+  /* checkbox aspect */
+}
+
+.storesCheck + label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* webkit (konqueror) browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+.storesCheck + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  z-index: 0;
+  border: 2px solid #5a5a5a;
+  border-radius: 1px;
+  margin-top: 2px;
+  transition: .2s;
+}
+
+.storesCheck:not(:checked):disabled + label:before {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.storesCheck:checked + label:before {
+  top: -4px;
+  left: -3px;
+  width: 12px;
+  height: 22px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #26a69a;
+  border-bottom: 2px solid #26a69a;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+.storesCheck:checked:disabled + label:before {
+  border-right: 2px solid rgba(0, 0, 0, 0.26);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+}
+
+/* Indeterminate checkbox */
+.storesCheck:indeterminate + label:before {
+  left: -10px;
+  top: -11px;
+  width: 10px;
+  height: 22px;
+  border-top: none;
+  border-left: none;
+  border-right: 2px solid #26a69a;
+  border-bottom: none;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+.storesCheck:indeterminate:disabled + label:before {
+  border-right: 2px solid rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+
+.storesCheck.filled-in + label:after {
+  border-radius: 2px;
+}
+
+.storesCheck.filled-in + label:before,
+.storesCheck.filled-in + label:after {
+  content: '';
+  left: 0;
+  position: absolute;
+  /* .1s delay is for check animation */
+  transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
+  z-index: 1;
+}
+
+.storesCheck.filled-in:not(:checked) + label:before {
+  width: 0;
+  height: 0;
+  border: 3px solid transparent;
+  left: 6px;
+  top: 10px;
+  -webkit-transform: rotateZ(37deg);
+  transform: rotateZ(37deg);
+  -webkit-transform-origin: 20% 40%;
+  transform-origin: 100% 100%;
+}
+
+.storesCheck.filled-in:not(:checked) + label:after {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 2px solid #5a5a5a;
+  top: 0px;
+  z-index: 0;
+}
+
+.storesCheck.filled-in:checked + label:before {
+  top: 0;
+  left: 1px;
+  width: 8px;
+  height: 13px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotateZ(37deg);
+  transform: rotateZ(37deg);
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.storesCheck.filled-in:checked + label:after {
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #26a69a;
+  background-color: #26a69a;
+  z-index: 0;
+}
+
+.storesCheck.filled-in:disabled:not(:checked) + label:before {
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.storesCheck.filled-in:disabled:not(:checked) + label:after {
+  border-color: transparent;
+  background-color: #BDBDBD;
+}
+
+.storesCheck.filled-in:disabled:checked + label:before {
+  background-color: transparent;
+}
+
+.storesCheck.filled-in:disabled:checked + label:after {
+  background-color: #BDBDBD;
+  border-color: #BDBDBD;
+}
+
+
+
+.switch label {
+  cursor: pointer;
+}
+
+.switch label .storesCheck{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch label .storesCheck:checked + .lever {
+  background-color: #84c7c1;
+}
+
+.switch label .storesCheck:checked + .lever:after {
+  background-color: #26a69a;
+}
+
+
+.storesCheck:checked:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1);
+}
+
+.storesCheck:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.switch label .storesCheck:checked + .lever:after {
+  left: 24px;
+}
+
+.switch .storesCheck[disabled] + .lever {
+  cursor: default;
+}
+
+.switch label .storesCheck[disabled] + .lever:after,
+.switch label .storesCheck[disabled]:checked + .lever:after {
+  background-color: #BDBDBD;
+}
+
+.map_canvas {
+  width: 100%;
+  height: 400px;
+  background: #e6ecf3;
+  }
+
+.float-input {
+  position: absolute;
+  top: 7%;
+  left: 31%;
+  z-index: 1;
+  width: 40%;
+  height: 45px;
+}
+
+#map {
+  margin-bottom: 17px;
+}
+.img1{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.small-box{
+  color: #FFF;
+}
+.announcement-img{
+  max-height: 60px;
+}
+
+.car-brands-img{
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.flag_img{
+    max-width: 61px;
+    max-height: 41px;
+    min-width: 61px;
+    min-height: 41px;
+}
+.summernote {
+  width: 100%;
+  height: 200px;
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.insta_img {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.bg-warning{
+  color: #fff;
+}
+
+.bg-catesgories{
+  background-color: #354adc;
+}
+
+.bg-subcatesgories{
+  background-color: #66dc35;
+}
+
+.bg-products{
+  background-color: #d935dc;
+}
+
+.bg-stores{
+  background-color: #6a35dc;
+}
+
+.bg-vouchers{
+  background-color: #e83e8c;
+}
+
+.bg-levels{
+  background-color: #30465f;
+}
+
+.bg-myoffers{
+  background-color: #6610f2;
+}
+
+.custom-loader {
+  display: none;
+  position: fixed;
+  left: 37%;
+  top: 20%;
+  width: 340px;
+  height: 340px;
+  z-index: 9999;
+  background: url(../../assets/images/others/loading.gif) center no-repeat ;
+}
+
+.btn{
+  cursor: pointer !important;
+}
+
+
