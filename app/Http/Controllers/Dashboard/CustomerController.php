@@ -1,21 +1,18 @@
 <?php
 
 namespace App\Http\Controllers\Dashboard;
-
 use App\Dashboard\Customers\Repositories\Interfaces\CustomerRepositoryInterface;
 use App\Dashboard\Customers\Repositories\CustomerRepository;
 use App\Dashboard\Customers\Customer;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\Paginator;
 use App\Http\Controllers\Controller;
-
 use App\Dashboard\Tools\Country;
 use App\Dashboard\Tools\Phone;
 
 
 class CustomerController extends Controller
 {
- 
     /**
     * @var CustomerRepository
     */
